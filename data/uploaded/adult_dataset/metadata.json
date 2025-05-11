@@ -1,0 +1,42 @@
+{
+  "name": "adult_dataset",
+  "description": "UCI Adult Dataset - Income prediction dataset",
+  "original_filename": "adult_uci.csv",
+  "rows": 48842,
+  "columns": 15,
+  "column_names": [
+    "age",
+    "workclass",
+    "fnlwgt",
+    "education",
+    "education-num",
+    "marital-status",
+    "occupation",
+    "relationship",
+    "race",
+    "sex",
+    "capital-gain",
+    "capital-loss",
+    "hours-per-week",
+    "native-country",
+    "income"
+  ],
+  "dtypes": {
+    "age": "int64",
+    "workclass": "object",
+    "fnlwgt": "int64",
+    "education": "object",
+    "education-num": "int64",
+    "marital-status": "object",
+    "occupation": "object",
+    "relationship": "object",
+    "race": "object",
+    "sex": "object",
+    "capital-gain": "int64",
+    "capital-loss": "int64",
+    "hours-per-week": "int64",
+    "native-country": "object",
+    "income": "object"
+  },
+  "upload_date": "2025-05-11T16:52:32.797985"
+}
