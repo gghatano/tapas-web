@@ -1,0 +1,45 @@
+{
+  "id": "adult_dataset_Membership_Inference_Attack_(MIA)_20250511_165311",
+  "dataset": "adult_dataset",
+  "attack_type": "Membership Inference Attack (MIA)",
+  "parameters": {
+    "data_type": "\u5143\u30c7\u30fc\u30bf\uff08\u30aa\u30ea\u30b8\u30ca\u30eb\u30c7\u30fc\u30bf\uff09",
+    "auxiliary_split": 0.5,
+    "num_synthetic_records": 1000,
+    "num_training_records": 1000,
+    "evaluation_runs": 3
+  },
+  "results": [
+    {
+      "run": 1,
+      "attack_type": "Membership Inference Attack (MIA)",
+      "dataset": "adult_dataset",
+      "accuracy": 0.75,
+      "precision": 0.7,
+      "recall": 0.72,
+      "f1_score": 0.71,
+      "auc": 0.73
+    },
+    {
+      "run": 2,
+      "attack_type": "Membership Inference Attack (MIA)",
+      "dataset": "adult_dataset",
+      "accuracy": 0.85,
+      "precision": 0.7999999999999999,
+      "recall": 0.82,
+      "f1_score": 0.8099999999999999,
+      "auc": 0.83
+    },
+    {
+      "run": 3,
+      "attack_type": "Membership Inference Attack (MIA)",
+      "dataset": "adult_dataset",
+      "accuracy": 0.95,
+      "precision": 0.8999999999999999,
+      "recall": 0.9199999999999999,
+      "f1_score": 0.9099999999999999,
+      "auc": 0.9299999999999999
+    }
+  ],
+  "timestamp": "2025-05-11T16:53:11.698251"
+}
